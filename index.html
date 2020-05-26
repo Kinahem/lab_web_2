@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <header>
+            <p class = "title">Phonebook</p>
+        </header>
+        <article>
+            <input  id = "input_name" type="text" placeholder="Name"><br><br>
+            <label for="input_numbers"><span class = "text">Phone numbers: </span></label>
+            <br>
+            <textarea id = "input_numbers" cols="50" rows="5" 
+                placeholder="Input numbers. Each on a new line"></textarea>
+            <br><br>
+            <button class="main_button" id = "add_person">Add contact</button>
+            <button class="main_button" id = "sort_person">Sort contacts</button><br><br>
+
+            <table id = "main_table">
+                <tr>
+                    <th>Contact name</th>
+                    <th>Contact's numbers</th>
+                </tr>
+            </table>
+        </article>
+        <footer>
+            <p class = "footer">Turkin Myhaylo, KV-72</p>
+        </footer>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: url(../images/background.jpg) no-repeat fixed;
+    background-size: 1366px;
+    background-color: #405d27aa;
+}
+
+.title {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main {
+    min-height: 500px;
+    min-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #82b74baa;
+    text-align: center;
+}
+
+header {
+    background-color: #c1946aaa;
+    text-align: center;
+    height: auto;
+}
+
+article{
+    min-height: 600px;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    height: 40px;
+    margin: 0;
+    font-size: 24px;
+    background-color: #5b6464aa;
+    color: white;
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    min-height: 30px;
+}
+
+textarea {
+    width: 500px;
+}
+
+#edit_person {
+    border-radius: 8px;
+    background-color: #c1946aaa;
+    color: black;
+}
+
+#del_person {
+    border-radius: 8px;
+    background-color: #c1946aaa;
+    color: black;
+}
+
+button#edit_number { 
+    border-radius: 8px;
+    background-color: #c1946aaa;
+    color: black;
+}
+
+#main_table th {
+    font-size: 26px;
+    color: black;
+    background-color: #c1946aaa;
+}
+
+.main_button {
+    min-height: 50px;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #c1946aaa;
+    color: black;
+    font-size: 18px;
+}
+
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 4px solid #beec18;
+    color: white;
+}
+
+table {
+    margin: auto;
+    min-width: 90%;
+}
